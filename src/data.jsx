@@ -87,7 +87,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: 'https://private-user-images.githubusercontent.com/89795037/347470771-357c09fb-8432-47ad-beb0-7c9cb3f1a21c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjYxMjcsIm5iZiI6MTcyMDYyNTgyNywicGF0aCI6Ii84OTc5NTAzNy8zNDc0NzA3NzEtMzU3YzA5ZmItODQzMi00N2FkLWJlYjAtN2M5Y2IzZjFhMjFjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1MzcwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ2ODA1NTA2NjM1Y2IzZTIyYjU1MzhlNWM3ZTM3ZDRmOTYzNzE0NzRhODVhZWJmYWI2ZGEzYjdjMmIwNmExZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.YbggsQw23ytfw0ADCPyijo8jTe33k0INircAn7rKYrE',
     url: 'http://parksomewhereapp.s3-website.us-east-2.amazonaws.com',
     github: 'https://github.com/Candide23/Parks-N-Rec-Candide',
     title: 'National Park Website',
@@ -95,7 +95,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: 'https://private-user-images.githubusercontent.com/89795037/347471706-7cc5cd02-39e9-4d3a-83a1-8fd49d475512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjYyODgsIm5iZiI6MTcyMDYyNTk4OCwicGF0aCI6Ii84OTc5NTAzNy8zNDc0NzE3MDYtN2NjNWNkMDItMzllOS00ZDNhLTgzYTEtOGZkNDlkNDc1NTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1Mzk0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVlNmU0ZDQwYzY5NzdkZTlhMTBiYTAzZDc3MzY3YjJjMmQ4YmNiOTY0MGRhYmFmZGRhZjlkOTg3YjgyYjM3N2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zq87JNCSBT5YQW8bSC_z8zWb6icdTsyggKHuK1wIMuw',
     url: 'http://quizap.s3-website.us-east-2.amazonaws.com/',
     github: 'https://github.com/Candide23/Quiz',
     title: 'Quiz',
@@ -104,9 +104,22 @@ export const projects = [
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    github: 'https://github.com/Candide23/trusthealthy',
+    title: 'TrustHealthy',
+    text: 'Trusthealthy is an application which allows the user to view all the patient records, to register a new patient, to enter clinical data for a pateint, to analyze and see a report of the latest tests.',
+  },
+  {
+    id: nanoid(),
+    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+    github: 'https://github.com/Candide23/library',
+    title: 'MBK Library',
+    text: 'A full-stack web app for browsing and checking out library books, featuring search, reviews, loans management, and admin controls. Built with React and Spring Boot.',
+  },
+  {
+    id: nanoid(),
+    img: 'https://private-user-images.githubusercontent.com/89795037/347468346-291c63db-2f30-4993-8b41-565ccee3edb7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjU3MjMsIm5iZiI6MTcyMDYyNTQyMywicGF0aCI6Ii84OTc5NTAzNy8zNDc0NjgzNDYtMjkxYzYzZGItMmYzMC00OTkzLThiNDEtNTY1Y2NlZTNlZGI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1MzAyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcwOGYzMmNmMjZjNjYyMjM3MWQzOTZjMDcyMjgwYWM5MDExM2IyYjFiMWFlNWI1ZWM2NDRjMDRlMjRjN2YwODMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.bCSV-2mS-HbcuvpRF4HCyR1u4xH0_Nfq5PXNhwP5lDs',
+    github: 'https://github.com/Candide23/MbkEcommerce',
+    title: 'MbkEcoomerce',
+    text: "This project is a real-time e-commerce application using Angular for the front-end and Spring Boot for the back-end, connected via a REST API, with full CRUD support for the database.",
   },
 ];
