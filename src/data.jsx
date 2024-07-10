@@ -14,111 +14,92 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-emerald-500' />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    icon: <FaJs className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <FaReact className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Java',
-    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <FaJava className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Angular',
-    icon: <FaAngular className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <FaAngular className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Ruby',
-    icon: <SiRuby className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <SiRuby className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Docker',
-    icon: <FaDocker className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <FaDocker className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'PHP',
-    icon: <FaPhp className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <FaPhp className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'SpringBoot',
-    icon: <SiSpringboot className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <SiSpringboot className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Java',
-    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <FaJava className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Aws',
-    icon: <FaAws className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <FaAws className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'MySQL',
-    icon: <SiMysql className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <SiMysql className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Node.js',
-    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />
   },
   {
     id: nanoid(),
     title: 'Express',
-    icon: <SiExpress className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+    icon: <SiExpress className='h-16 w-16 text-emerald-500' />
   },
-  {
-    id: nanoid(),
-    title: 'Java',
-    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
-    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
-  },
+
 ];
 
 export const projects = [
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: 'http://parksomewhereapp.s3-website.us-east-2.amazonaws.com',
+    github: 'https://github.com/Candide23/Parks-N-Rec-Candide',
+    title: 'National Park Website',
+    text: 'My project is a group project where we create a website that can tell me all the information that I need about national Parks, so I can plan in advance my visit.',
   },
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: 'http://quizap.s3-website.us-east-2.amazonaws.com/',
+    github: 'https://github.com/Candide23/Quiz',
+    title: 'Quiz',
+    text: "We have a Quiz App using the Open Trivia DB API, letting users set up quizzes, answer questions, and choose categories.",
   },
   {
     id: nanoid(),
