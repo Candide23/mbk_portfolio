@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 import { FaAngular, FaDocker, FaHtml5, FaJava, FaJs, FaNodeJs, FaPhp, FaReact } from 'react-icons/fa';
 import { FaAws } from 'react-icons/fa6';
-import { SiExpress, SiMysql, SiRuby, SiSpringboot } from 'react-icons/si';
+import { SiExpress, SiMysql, SiRuby, SiSequelize, SiSpringboot } from 'react-icons/si';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -81,6 +81,11 @@ export const skills = [
     title: 'Express',
     icon: <SiExpress className='h-16 w-16 text-emerald-500' />
   },
+  {
+    id: nanoid(),
+    title: 'Sequilize',
+    icon: <SiSequelize className='h-16 w-16 text-emerald-500' />
+  },
 
 ];
 
@@ -103,21 +108,21 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: 'https://user-images.githubusercontent.com/89795037/204162399-9b0a9a63-2d64-49a8-8448-8a135fefc0e5.png',
     github: 'https://github.com/Candide23/trusthealthy',
     title: 'TrustHealthy',
     text: 'Trusthealthy is an application which allows the user to view all the patient records, to register a new patient, to enter clinical data for a pateint, to analyze and see a report of the latest tests.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: 'https://private-user-images.githubusercontent.com/89795037/347482669-c725db6f-dabc-4588-a8b0-ef671c858ebe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjgzMjIsIm5iZiI6MTcyMDYyODAyMiwicGF0aCI6Ii84OTc5NTAzNy8zNDc0ODI2NjktYzcyNWRiNmYtZGFiYy00NTg4LWE4YjAtZWY2NzFjODU4ZWJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE2MTM0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYmQ1OTM0N2U1MTM2NjBiNjcxZjk2M2E2MWNiZTNhMTY4ZmViYmI3NTdhZmY2MDMyOWZjNTg0NjVmNzA0MWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.XRV-mwpnenZMOg_WkQYwHDMVtXo14-3AZrbUndjYvkY',
     github: 'https://github.com/Candide23/library',
     title: 'MBK Library',
     text: 'A full-stack web app for browsing and checking out library books, featuring search, reviews, loans management, and admin controls. Built with React and Spring Boot.',
   },
   {
     id: nanoid(),
-    img: 'https://private-user-images.githubusercontent.com/89795037/347468346-291c63db-2f30-4993-8b41-565ccee3edb7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjU3MjMsIm5iZiI6MTcyMDYyNTQyMywicGF0aCI6Ii84OTc5NTAzNy8zNDc0NjgzNDYtMjkxYzYzZGItMmYzMC00OTkzLThiNDEtNTY1Y2NlZTNlZGI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1MzAyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcwOGYzMmNmMjZjNjYyMjM3MWQzOTZjMDcyMjgwYWM5MDExM2IyYjFiMWFlNWI1ZWM2NDRjMDRlMjRjN2YwODMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.bCSV-2mS-HbcuvpRF4HCyR1u4xH0_Nfq5PXNhwP5lDs',
+    img: 'https://private-user-images.githubusercontent.com/89795037/347468346-291c63db-2f30-4993-8b41-565ccee3edb7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjY3MjIsIm5iZiI6MTcyMDYyNjQyMiwicGF0aCI6Ii84OTc5NTAzNy8zNDc0NjgzNDYtMjkxYzYzZGItMmYzMC00OTkzLThiNDEtNTY1Y2NlZTNlZGI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1NDcwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThmMjA2ODdlMjMzYzdhYjBiN2Q3NjYwNzhkYmY4NjAxYWYxY2FmMzU4Nzk4ZjFkZTkyZDg4OTJlNzYyMWMzMjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zcSwdQwi1sKUPl4rwq2td3vQty2KQx7oybnS4B3fSwg',
     github: 'https://github.com/Candide23/MbkEcommerce',
     title: 'MbkEcoomerce',
     text: "This project is a real-time e-commerce application using Angular for the front-end and Spring Boot for the back-end, connected via a REST API, with full CRUD support for the database.",
