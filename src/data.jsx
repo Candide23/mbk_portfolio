@@ -1,5 +1,7 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaAngular, FaDocker, FaHtml5, FaJava, FaJs, FaNodeJs, FaPhp, FaReact } from 'react-icons/fa';
+import { FaAws } from 'react-icons/fa6';
+import { SiExpress, SiMysql, SiRuby, SiSpringboot } from 'react-icons/si';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -26,6 +28,78 @@ export const skills = [
     title: 'React',
     icon: <FaReact className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Java',
+    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Angular',
+    icon: <FaAngular className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Ruby',
+    icon: <SiRuby className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Docker',
+    icon: <FaDocker className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'PHP',
+    icon: <FaPhp className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'SpringBoot',
+    icon: <SiSpringboot className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Java',
+    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Aws',
+    icon: <FaAws className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'MySQL',
+    icon: <SiMysql className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Node.js',
+    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Express',
+    icon: <SiExpress className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
+  },
+  {
+    id: nanoid(),
+    title: 'Java',
+    icon: <FaJava className='h-16 w-16 text-emerald-500' />,
+    text: 'Intermediate proficiency in Java, developing reliable and maintainable back-end applications with a solid understanding of object-oriented programming principles and design patterns.',
   },
 ];
 
