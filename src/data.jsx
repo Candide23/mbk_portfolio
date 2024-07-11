@@ -92,7 +92,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://private-user-images.githubusercontent.com/89795037/347470771-357c09fb-8432-47ad-beb0-7c9cb3f1a21c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjYxMjcsIm5iZiI6MTcyMDYyNTgyNywicGF0aCI6Ii84OTc5NTAzNy8zNDc0NzA3NzEtMzU3YzA5ZmItODQzMi00N2FkLWJlYjAtN2M5Y2IzZjFhMjFjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1MzcwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ2ODA1NTA2NjM1Y2IzZTIyYjU1MzhlNWM3ZTM3ZDRmOTYzNzE0NzRhODVhZWJmYWI2ZGEzYjdjMmIwNmExZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.YbggsQw23ytfw0ADCPyijo8jTe33k0INircAn7rKYrE',
+    img: 'https://images.unsplash.com/photo-1597441200453-8360298c4e7a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     url: 'http://parksomewhereapp.s3-website.us-east-2.amazonaws.com',
     github: 'https://github.com/Candide23/Parks-N-Rec-Candide',
     title: 'National Park Website',
@@ -115,14 +115,13 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://private-user-images.githubusercontent.com/89795037/347482669-c725db6f-dabc-4588-a8b0-ef671c858ebe.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjgzMjIsIm5iZiI6MTcyMDYyODAyMiwicGF0aCI6Ii84OTc5NTAzNy8zNDc0ODI2NjktYzcyNWRiNmYtZGFiYy00NTg4LWE4YjAtZWY2NzFjODU4ZWJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE2MTM0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYmQ1OTM0N2U1MTM2NjBiNjcxZjk2M2E2MWNiZTNhMTY4ZmViYmI3NTdhZmY2MDMyOWZjNTg0NjVmNzA0MWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.XRV-mwpnenZMOg_WkQYwHDMVtXo14-3AZrbUndjYvkY',
-    github: 'https://github.com/Candide23/library',
+    img: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'MBK Library',
     text: 'A full-stack web app for browsing and checking out library books, featuring search, reviews, loans management, and admin controls. Built with React and Spring Boot.',
   },
   {
     id: nanoid(),
-    img: 'https://private-user-images.githubusercontent.com/89795037/347468346-291c63db-2f30-4993-8b41-565ccee3edb7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjY3MjIsIm5iZiI6MTcyMDYyNjQyMiwicGF0aCI6Ii84OTc5NTAzNy8zNDc0NjgzNDYtMjkxYzYzZGItMmYzMC00OTkzLThiNDEtNTY1Y2NlZTNlZGI3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1NDcwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThmMjA2ODdlMjMzYzdhYjBiN2Q3NjYwNzhkYmY4NjAxYWYxY2FmMzU4Nzk4ZjFkZTkyZDg4OTJlNzYyMWMzMjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zcSwdQwi1sKUPl4rwq2td3vQty2KQx7oybnS4B3fSwg',
+    img: 'https://plus.unsplash.com/premium_photo-1684785617123-8dd039cdb2c2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     github: 'https://github.com/Candide23/MbkEcommerce',
     title: 'MbkEcoomerce',
     text: "This project is a real-time e-commerce application using Angular for the front-end and Spring Boot for the back-end, connected via a REST API, with full CRUD support for the database.",
