@@ -100,7 +100,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://private-user-images.githubusercontent.com/89795037/347471706-7cc5cd02-39e9-4d3a-83a1-8fd49d475512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA2MjYyODgsIm5iZiI6MTcyMDYyNTk4OCwicGF0aCI6Ii84OTc5NTAzNy8zNDc0NzE3MDYtN2NjNWNkMDItMzllOS00ZDNhLTgzYTEtOGZkNDlkNDc1NTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzEwVDE1Mzk0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVlNmU0ZDQwYzY5NzdkZTlhMTBiYTAzZDc3MzY3YjJjMmQ4YmNiOTY0MGRhYmFmZGRhZjlkOTg3YjgyYjM3N2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zq87JNCSBT5YQW8bSC_z8zWb6icdTsyggKHuK1wIMuw',
+    img: 'https://1.bp.blogspot.com/--N26aRZdGGM/X3w1K1Ua5aI/AAAAAAAAA6U/CAW__gnZGAwwhtESQ8nIaM5e-vBrXRhzwCLcBGAsYHQ/s1280/Create%2Ba%2BQuiz%2BApp%2Bwith%2BTimer%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp',
     url: 'http://quizap.s3-website.us-east-2.amazonaws.com/',
     github: 'https://github.com/Candide23/Quiz',
     title: 'Quiz',
@@ -108,14 +108,15 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://user-images.githubusercontent.com/89795037/204162399-9b0a9a63-2d64-49a8-8448-8a135fefc0e5.png',
-    github: 'https://github.com/Candide23/trusthealthy',
-    title: 'TrustHealthy',
-    text: 'Trusthealthy is an application which allows the user to view all the patient records, to register a new patient, to enter clinical data for a pateint, to analyze and see a report of the latest tests.',
+    img: 'https://www.shape.com/thmb/CLEIsSUYLZ_YMpJ9HENw4Hdbh8M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Dietitian-Approved-Mindfullness-App-Way-Health-Shape-Stocksy_txp161f28e5NZP300_Medium_1878239-2000-1465385a832c4ad98b542a2b5e58a00e.jpg',
+    github: 'https://github.com/Candide23/HealthTrack',
+    title: 'HealthTrack',
+    text: 'HealthTrack helps users log health metrics, track symptoms, and manage appointments with a dashboard visualizing health trends. The project enhanced my skills in implementing JUnit tests for reliable functionality.',
   },
   {
     id: nanoid(),
     img: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    github: 'https://github.com/Candide23/library',
     title: 'MBK Library',
     text: 'A full-stack web app for browsing and checking out library books, featuring search, reviews, loans management, and admin controls. Built with React and Spring Boot.',
   },
